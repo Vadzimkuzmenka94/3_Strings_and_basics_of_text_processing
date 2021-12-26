@@ -1,4 +1,4 @@
-package String_and_basics_of_text_processing;
+//5. Подсчитать, сколько раз среди символов заданной строки встречается буква “а”.
 
 public class task2_5 {
     public static void main(String[] args) {

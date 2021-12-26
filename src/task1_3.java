@@ -1,6 +1,6 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//3. В строке найти количество цифр.
 public class task1_3 {
     public static void main(String arg[]) {
         String str="Число 1 - является вторым после 0, оно является положительным, кроме того в данной строке имеются" +

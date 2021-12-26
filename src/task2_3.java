@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//3. Проверить, является ли заданное слово палиндромом.
 public class task2_3 {
     public static void main(String[] args){
         Scanner console = new Scanner(System.in);

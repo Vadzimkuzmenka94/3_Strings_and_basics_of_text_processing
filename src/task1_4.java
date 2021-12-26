@@ -1,6 +1,6 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//4. В строке найти количество чисел.
 public class task1_4 {
 
     public static int count =0;

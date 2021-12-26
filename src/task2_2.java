@@ -1,10 +1,32 @@
-package String_and_basics_of_text_processing;
-// доработать
+import java.util.Scanner;
+
+/*
+    В строке после каждого символа 'a' вставляет символ 'b'
+ */
 public class task2_2 {
+    //Добавляет после каждого символа inputAfter cимвол symbolToInput
+    public static String addSymbol(String string, char inputAfter, char symbolToInput) {
+        String newCharSeq = "";
+        newCharSeq += inputAfter;
+        newCharSeq += symbolToInput;
+
+        String oldSeq = "";
+        oldSeq += inputAfter;
+
+        return string.replace(oldSeq, newCharSeq);
+    }
+
     public static void main(String[] args) {
-        StringBuilder stringBuilder = new StringBuilder("Yes, ok, adv");
-        int i = stringBuilder.indexOf("a");
-        stringBuilder.insert(i, "b");
-        System.out.println(stringBuilder);
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите строку: ");
+        String line = in.nextLine();
+
+        char oldSymbol = 'a';
+        char newSymbol = 'b';
+
+        String changedLine = addSymbol(line, oldSymbol, newSymbol);
+
+        System.out.println("После каждого символа" + oldSymbol + " добавлен " + newSymbol);
+        System.out.println(changedLine);
     }
 }

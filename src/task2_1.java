@@ -1,6 +1,6 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+//1. Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
 public class task2_1 {
     public static void main(String[] args) {
 
